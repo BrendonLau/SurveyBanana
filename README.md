@@ -19,17 +19,19 @@ submitted answers for any survey in CSV format.
 
 ## Set up guide with Docker
 ### Prerequisites 
-* Please ensure Docker is installed else follow this [guide](https://docs.docker.com/engine/install/)
+* Please ensure Docker is installed and running else follow this [guide](https://docs.docker.com/engine/install/)
 
 ### Set up the connection to MongoDB
-1. Copy the `nodemon.json` file in this [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=sharing) containing the username and password
+1. download and copy the `nodemon.json` file in this [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=sharing) containing the username and password
 2. Paste the file in the `backend` root directory
 
 ### Running the application
-1. Build the frontend image by running `docker build -t <IMAGE_NAME> .` in the `frontend` root directory
-2. Run `docker run -p 3000:3000 <IMAGE_NAME>` to start the frontend
-3. Build the backend image by running `docker build -t <IMAGE_NAME> .` in the `backend` root directory
-4. Run `docker run -p 4000:4000 <IMAGE_NAME>` to start the backend
+1. Build the backend image by running `docker build -t backend .` in the `backend` root directory
+2. Run `docker run -p 4000:4000 backend` to start the backend
+3. Build the frontend image by running `docker build -t frontend .` in the `frontend` root directory
+4. Run `docker run -p 3000:3000 frontend` to start the frontend
+5. Go to http://localhost:3000/ 
+
 
 ## Demo
 * For guidance on usage, please watch the video in the [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=drive_link)
