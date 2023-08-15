@@ -19,7 +19,7 @@ submitted answers for any survey in CSV format.
 
 ## Set up guide with Docker
 ### Prerequisites 
-* Please ensure Docker is installed else follow this [guide](https://docs.docker.com/engine/install/)
+* Please ensure Docker is installed and running else follow this [guide](https://docs.docker.com/engine/install/)
 
 ### Set up the connection to MongoDB
 1. download and copy the `nodemon.json` file in this [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=sharing) containing the username and password
