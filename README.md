@@ -30,6 +30,7 @@ submitted answers for any survey in CSV format.
 2. Run `docker run -p 4000:4000 backend` to start the backend
 3. Build the frontend image by running `docker build -t frontend .` in the `frontend` root directory
 4. Run `docker run -p 3000:3000 frontend` to start the frontend
+5. Go to http://localhost:3000/ 
 
 
 ## Demo
