@@ -26,10 +26,11 @@ submitted answers for any survey in CSV format.
 2. Paste the file in the `backend` root directory
 
 ### Running the application
-1. Build the frontend image by running `docker build -t frontend .` in the `frontend` root directory
-2. Run `docker run -p 3000:3000 frontend` to start the frontend
-3. Build the backend image by running `docker build -t backend .` in the `backend` root directory
-4. Run `docker run -p 4000:4000 backend` to start the backend
+1. Build the backend image by running `docker build -t backend .` in the `backend` root directory
+2. Run `docker run -p 4000:4000 backend` to start the backend
+3. Build the frontend image by running `docker build -t frontend .` in the `frontend` root directory
+4. Run `docker run -p 3000:3000 frontend` to start the frontend
+
 
 ## Demo
 * For guidance on usage, please watch the video in the [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=drive_link)
