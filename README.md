@@ -22,7 +22,7 @@ submitted answers for any survey in CSV format.
 * Please ensure Docker is installed and running else follow this [guide](https://docs.docker.com/engine/install/)
 
 ### Set up the connection to MongoDB
-1. download and copy the `nodemon.json` file in this [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=sharing) containing the username and password
+1. download and copy the `nodemon.json` file in this ~folder~ containing the username and password
 2. Paste the file in the `backend` root directory
 
 ### Running the application
@@ -34,9 +34,9 @@ submitted answers for any survey in CSV format.
 
 
 ## Demo
-* For guidance on usage, please watch the video in the [folder](https://drive.google.com/drive/folders/1q1b01cxG7p3L5mxinOdcVdOnBm58QIJq?usp=drive_link)
+* For guidance on usage, please watch the video in the ~folder~
 
 ## Future extensions
-1. Use the Command and Query Responsibility Segregation Pattern, and split the backend into read and write services with 2 different databases. As our application is read-heavy, we will not modify the data using the read service and able to write custom schema to optimise reads.
+1. Use the Command and Query Responsibility Segregation Pattern, and split the backend into read and write services with 2 different databases. We will not modify the data using the read service and able to write custom schema to optimise reads.
 2. We can add a load balancer like Nginx and Kubernetes to manage traffic and containers.
-3. We can add a cache such as Redis to cache popular URLs.
+3. We can add a cache in the middleware such as Redis to cache popular URLs.
